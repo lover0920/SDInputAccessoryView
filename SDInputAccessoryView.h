@@ -1,12 +1,11 @@
-# SDInputAccessoryView
-动态、评论的键盘上的输入框，可以记录下视图消失后的输入的内容
+//
+//  SDInputAccessoryView.h
+//  LizhiRun
+//
+//  Created by 孙号斌 on 2018/7/10.
+//  Copyright © 2018年 SX. All rights reserved.
+//
 
----
-效果图
-![]()
-
----
-```
 #import <UIKit/UIKit.h>
 
 @interface SDInputAccessoryView : UIView
@@ -26,6 +25,3 @@
 - (void)removeNotiObserver;
 
 @end
-
-```
-
